@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    perspective: 600px;
+    background-image: url("../image/Original\ Romantic\ Blue\ Night\ Sky\ Background\ Wallpaper\ Image\ For\ Free\ Download\ -\ Pngtree.jpeg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+section{
+    transform-style: preserve-3d;
+
+}
+.div1{
+    top: 40px;
+}
+.div3{
+    top: 330px;
+    animation-delay: 4s;
+}
+.div5{
+    top:590px;
+    animation-delay: 8s;
+}
+.div1, .div3, .div5{
+    width: 215px;
+    height: 169px;
+    position: absolute;
+    animation-name: group1;
+    background-image: url("../image/2023-07-10_blue-removebg-preview.png");
+    background-size: cover;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: linear;
+
+}
+.div2{
+    top: 210px;
+    animation-delay: 2s;
+    animation-direction: reverse;
+}
+.div4{
+    top: 499px;
+    animation-delay: 6s;
+}
+.div6{
+    top: 755px;
+    animation-delay: 10s;
+}
+.div2, .div4, .div6{
+    width: 215px;
+    height: 169px;
+    position: absolute;
+    background-image: url("../image/2023-07-10_bl_1_-removebg-preview.png");
+    background-size: cover;
+    left: 83%;
+    animation-name: group2;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-timing-function: linear;
+}
+
+@keyframes group1{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 83%;
+    }
+}
+@keyframes group2{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 83%;
+    }
+}
